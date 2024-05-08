@@ -1,0 +1,27 @@
+devices->network->NAT network->Create new network->OK
+
+OPEN BOTH THE VM
+
+VM1
+ipconfig
+echo "contents of the file">filename.txt
+ls
+
+VM2
+ipconfig
+pwd
+
+VM1
+scp myfile.txt vagrant@192.168.0.9:/home/vagrant
+
+VM 2
+
+select yes
+ls
+cat filename.txt
+
+
+
+to change ip
+
+sudo ifconfig eth0 193.3093 netmask 255.255.255.0

@@ -1,0 +1,14 @@
+mkdir Part A
+cd Part A
+git --version
+git init
+git add
+git status
+git remote add origin "Link of the GitHub"
+git commit -m "Comment"
+git push -u origin master
+
+for verification
+
+git config --global user.email "email.id"
+git config --global user.name "user_name"

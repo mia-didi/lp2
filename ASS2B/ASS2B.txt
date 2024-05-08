@@ -1,0 +1,22 @@
+Dockerfile
+
+console.log("String");
+
+Dockerfile
+
+FROM node:alpine
+COPY . /partb
+CMD node/partb/mv.js
+
+console.log("MukuncXZVashisht");
+console.log("Mukundszxcisht");
+console.log("MucXZVashisht");
+console.log("Mukucdszct");
+
+command prompt
+
+node mv.js
+docker --version
+docker build -t partb
+docker images
+
